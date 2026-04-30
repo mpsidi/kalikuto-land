@@ -10,21 +10,38 @@
 <body class="bg-gray-900 text-white font-sans">
 
 <!-- HERO -->
-<section class="h-screen flex flex-col justify-center items-center text-center px-6">
-  <h1 class="text-4xl md:text-6xl font-bold mb-6">
-    Lahan Strategis 4 Hektar
-  </h1>
-  <p class="text-xl md:text-2xl mb-4">
-    Akses Langsung Jalan Raya Grabag – Magelang
-  </p>
-  <p class="text-gray-400 max-w-2xl">
-    Cocok untuk pengembangan usaha pertanian komersial, logistik, gudang, atau operasional terpadu.
-  </p>
+<section 
+  class="h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center relative"
+  style="background-image: url('hero.jpg');"
+>
 
-  <a href="https://wa.me/62XXXXXXXXXX" 
-     class="mt-6 bg-green-500 px-6 py-3 rounded-lg text-black font-semibold">
-     Hubungi via WhatsApp
-  </a>
+  <!-- overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+  <!-- content -->
+  <div class="relative z-10 max-w-3xl">
+    
+    <p class="text-sm text-gray-300 mb-2">Tampilan aerial lokasi</p>
+
+    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+      Lahan Strategis 4 Hektar
+    </h1>
+
+    <p class="text-xl md:text-2xl mb-4">
+      Akses Langsung Jalan Raya Grabag – Magelang
+    </p>
+
+    <p class="text-gray-300 mb-6">
+      Cocok untuk pengembangan usaha pertanian komersial, logistik, gudang, atau operasional terpadu.
+    </p>
+
+    <a href="https://wa.me/62XXXXXXXXXX" 
+       class="inline-block bg-green-500 px-6 py-3 rounded-lg text-black font-semibold hover:bg-green-400 transition">
+       Hubungi via WhatsApp
+    </a>
+
+  </div>
+
 </section>
 
 <!-- AKSES STRATEGIS -->
@@ -86,7 +103,7 @@
     Skema kerja sama fleksibel tersedia untuk mendukung proses pengembangan dan aktivasi lahan.
   </p>
 </section>
-  
+
 <!-- SKEMA -->
 <section class="py-16 px-6 bg-gray-800">
   <div class="max-w-5xl mx-auto">
@@ -113,17 +130,37 @@
 </section>
 
 <!-- CTA -->
-<section class="py-16 px-6 text-center">
-  <h2 class="text-3xl font-bold mb-6">Tertarik?</h2>
-  <p class="text-gray-300 mb-6">
-    Hubungi kami untuk diskusi lebih lanjut atau survei lokasi.
+<section class="py-16 px-6 text-center bg-gray-900">
+  <h2 class="text-3xl font-bold mb-6">Tertarik dengan lokasi ini?</h2>
+
+  <p class="text-gray-300 mb-6 max-w-2xl mx-auto">
+    Hubungi langsung pemilik untuk diskusi lebih lanjut, detail lokasi, atau penjadwalan survei.
+    Terbuka untuk kerja sama jangka panjang dan pengembangan usaha.
   </p>
 
-  <a href="https://wa.me/62XXXXXXXXXX" 
-     class="bg-green-500 px-8 py-4 rounded-lg text-black font-semibold text-lg">
-     Chat WhatsApp Sekarang
-  </a>
+  <!-- CONTACT BUTTONS -->
+  <div class="flex flex-col md:flex-row gap-4 justify-center mb-6">
+
+    <a href="https://wa.me/62811380310?text=Tertarik%20dengan%20lahan%20di%20Kalikuto%2C%20Grabag"
+       class="bg-green-500 px-6 py-3 rounded-lg text-black font-semibold hover:bg-green-400 transition">
+       WhatsApp Micky (Pemilik)
+    </a>
+
+    <a href="https://wa.me/6281322356979?text=Tertarik%20dengan%20lahan%20di%20Kalikuto%2C%20Grabag"
+       class="bg-green-500 px-6 py-3 rounded-lg text-black font-semibold hover:bg-green-400 transition">
+       WhatsApp Micko (Pemilik)
+    </a>
+
+  </div>
+
+  <!-- FALLBACK CONTACT -->
+  <p class="text-gray-400 text-sm">
+    Kontak langsung: <br>
+    Micky: +62 811 380 310 <br>
+    Micko: +62 813 2235 6979
+  </p>
 </section>
+  
 
 </body>
 </html>
